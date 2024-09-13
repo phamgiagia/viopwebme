@@ -1,0 +1,239 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+}
+.gjs-heading {
+	margin:0;
+}
+#yui3-css-stamp {
+	position:absolute !important;
+	visibility:hidden !important;
+}
+#ivzny {
+	position:absolute;
+}
+#i9fvz {
+	position:absolute;
+}
+#is73j {
+	position:absolute;
+}
+#ihpgb {
+	filter:contrast(1.2) brightness(0.9);
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/new-york/skyline-2500w.jpg");
+}
+#ipn8n {
+	display:none;
+}
+#i8drsh {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/new-york/street-1-1000w.jpg");
+}
+#i1zxd5 {
+	display:none;
+}
+#iesnm1 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/new-york/street-2-1000w.jpg");
+}
+#i5ypf4 {
+	display:none;
+}
+#ismkt8 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/new-york/street-3-1000w.jpg");
+}
+#izjiv6 {
+	display:none;
+}
+#is8suu {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-02-2500w.jpg");
+}
+#ihzqc2 {
+	display:none;
+}
+#i7daah {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-03-2500w.jpg");
+}
+#ibjh77 {
+	display:none;
+}
+#id8xoj {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-04-2500w.jpg");
+}
+#ifn0kf {
+	display:none;
+}
+#i8zxr6 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-05-2500w.jpg");
+}
+#itezqh {
+	display:none;
+}
+#iw6dl4 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-06-2500w.jpg");
+}
+#ihtws4 {
+	display:none;
+}
+#ijjupr {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-07-2500w.jpg");
+}
+#ilkooo {
+	display:none;
+}
+#ie6bq3 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-08-2500w.jpg");
+}
+#ipz4s1 {
+	display:none;
+}
+#ivnrlh {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-09-2500w.jpg");
+}
+#in6gsf {
+	display:none;
+}
+#ig1qf5 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/office/office-10-2500w.jpg");
+}
+#i53xnd {
+	display:none;
+}
+#iunh29 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/typeface/uppercase-2500w.jpg");
+}
+#istg5k {
+	display:none;
+}
+#itnayh {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/typeface/lowercase-2500w.jpg");
+}
+#ivdpsh {
+	display:none;
+}
+#ie8014 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/posters/poster-1-1500w.jpg");
+}
+#iao97d {
+	display:none;
+}
+#ikc31c {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/posters/poster-2-1500w.jpg");
+}
+#ichosx {
+	display:none;
+}
+#i2akcy {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/posters/poster-3-1500w.jpg");
+}
+#ibcth1 {
+	display:none;
+}
+#ilz4p9 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/marketing/tile-1-2500w.jpg");
+}
+#ij2228 {
+	display:none;
+}
+#imw4t1 {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/marketing/tile-2-2500w.jpg");
+}
+#ilpd8m {
+	display:none;
+}
+#i6lkwk {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/marketing/tile-3-2500w.jpg");
+}
+#if7spr {
+	display:none;
+}
+#iq527f {
+	background-image:url("https://static1.squarespace.com/static/ta/5b97e4757c932794d952176f/18/assets/images/marketing/tile-4-2500w.jpg");
+}
+#ifdxhj {
+	display:none;
+}
+#ibqnek {
+	fill:#fff;
+}
+#ieo18h {
+	fill:#fff;
+}
+#itxpzp {
+	fill:#fff;
+}
+#i4an9a {
+	display:none;
+}
+#inzsro {
+	display:none;
+}
+#iprx4g {
+	display:none;
+}
+#_pix_id_450f2ab0-dc40-108e-8c6d-769f9b0858eb {
+	display:none;
+}
+#_pix_id_a5938756-f060-cbe6-1d66-e6508e6ebbeb {
+	display:none;
+}
+#_pix_id_714d6040-6939-40c2-9536-cadcf86e31e1 {
+	display:none;
+}
+#_pix_id_7a953892-27c6-3cdb-8e86-56542e8d0abe {
+	display:none;
+}
+#i02x2b {
+	pointer-events:none;
+	height:0px;
+	width:0px;
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	visibility:hidden;
+}
+#batBeacon894042756583 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#batBeacon518508336680 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#irfugo {
+	display:none;
+}
+#ii2hyf {
+	display:none;
+}
+#ionoou {
+	display:none;
+}
+#ilbhjk {
+	display:none;
+	visibility:hidden;
+}
+#islrtp {
+	display:none;
+	visibility:hidden;
+}
+#iung3m {
+	display:none;
+	visibility:hidden;
+}
+#irdvm9 {
+	display:none;
+	visibility:hidden;
+}
+#if4w8a {
+	display:none;
+	visibility:hidden;
+}
+#i669t7 {
+	display:none;
+}
