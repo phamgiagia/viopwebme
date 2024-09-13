@@ -1,0 +1,163 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+}
+[touch-action="none"] {
+	-ms-touch-action:none;
+	touch-action:none;
+}
+[touch-action="auto"] {
+	-ms-touch-action:auto;
+	touch-action:auto;
+}
+[touch-action="pan-x"] {
+	-ms-touch-action:pan-x;
+	touch-action:pan-x;
+}
+[touch-action="pan-y"] {
+	-ms-touch-action:pan-y;
+	touch-action:pan-y;
+}
+[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"] {
+	-ms-touch-action:pan-x pan-y;
+	touch-action:pan-x pan-y;
+}
+.gjs-link {
+	vertical-align:top;
+	max-width:100%;
+	display:inline-block;
+	text-decoration:none;
+	color:inherit;
+}
+.gjs-heading {
+	margin:0;
+}
+#ib9yq {
+	position:absolute;
+}
+#i14gf {
+	position:absolute;
+}
+#ikv1y {
+	position:absolute;
+}
+#cdn-lark {
+	display:none;
+}
+#i10yqh {
+	background-image:url("https://images.squarespace-cdn.com/content/v1/6008a03f6012c621c158376c/1611350706240-3UQRP1OPKJR5C053G8N5/hiw-professional-design.jpg?format=2500w");
+}
+#i6iogr {
+	display:none;
+}
+#iqblop {
+	background-image:url("https://images.squarespace-cdn.com/content/v1/6008a03f6012c621c158376c/1611350706057-HGS8WXXHBEXNFVRRVMW1/hiw-desktop-site.jpg?format=1500w");
+}
+#im4gmo {
+	display:none;
+}
+#ipmunf {
+	background-image:url("https://images.squarespace-cdn.com/content/v1/6008a03f6012c621c158376c/1611350706091-W1VDC4QPBOZ8EB62WE29/hiw-mobile-site.jpg?format=1500w");
+}
+#iv6wts {
+	display:none;
+}
+#i993p5 {
+	background-image:url("https://images.squarespace-cdn.com/content/v1/6008a03f6012c621c158376c/1611350883895-RQIA90NOUDACYK5YOIVR/ricky-website.jpg?format=1500w");
+}
+#igb6oj {
+	display:none;
+}
+#ijlbif {
+	background-image:url("https://images.squarespace-cdn.com/content/v1/6008a03f6012c621c158376c/1611350878434-IA8QMCDTCJZGAJT4A5HN/ricky-quote.jpg?format=500w");
+}
+#iwt9fc {
+	display:none;
+}
+#i4ho3k {
+	display:none;
+}
+#ib0j05 {
+	display:none;
+	visibility:hidden;
+}
+#igdekh {
+	white-space:pre;
+}
+#is5r0l {
+	display:none;
+}
+#imo1y5 {
+	display:none;
+}
+#ioqz0b {
+	display:none;
+}
+#_pix_id_450f2ab0-dc40-108e-8c6d-769f9b0858eb {
+	display:none;
+}
+#_pix_id_a5938756-f060-cbe6-1d66-e6508e6ebbeb {
+	display:none;
+}
+#_pix_id_714d6040-6939-40c2-9536-cadcf86e31e1 {
+	display:none;
+}
+#_pix_id_7a953892-27c6-3cdb-8e86-56542e8d0abe {
+	display:none;
+}
+#ifsal5 {
+	pointer-events:none;
+	height:0px;
+	width:0px;
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	visibility:hidden;
+}
+#batBeacon729391923341 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#batBeacon389504563476 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#ihh58e {
+	display:none;
+}
+#ii3o0i {
+	display:none;
+}
+#ifzjb4 {
+	display:none;
+}
+#ijiyu1 {
+	display:none;
+	visibility:hidden;
+}
+#iklk6q {
+	display:none;
+	visibility:hidden;
+}
+#i041yt {
+	display:none;
+	visibility:hidden;
+}
+#i8w25x {
+	display:none;
+	visibility:hidden;
+}
+#i7pdoq {
+	display:none;
+	visibility:hidden;
+}
+#iyo3co {
+	display:none;
+}
