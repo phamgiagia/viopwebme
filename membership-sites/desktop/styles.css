@@ -1,0 +1,186 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+}
+html[lang^="de"] #templates-block,html[lang^="fr"] #templates-block,html[lang^="pt"] #templates-block,html[lang^="it"] #templates-block,html[lang^="es"] #templates-block {
+	display:none;
+}
+.gjs-link {
+	vertical-align:top;
+	max-width:100%;
+	display:inline-block;
+	text-decoration:none;
+	color:inherit;
+}
+.gjs-heading {
+	margin:0;
+}
+#ijbv8 {
+	position:absolute;
+}
+#ikgfe {
+	position:absolute;
+}
+#ixxdm {
+	position:absolute;
+}
+#cdn-lark {
+	display:none;
+}
+#navigation-auth-menu-desktop-wrapper {
+	top:80px;
+	left:-40px;
+}
+#ihf7dl {
+	left:0px;
+}
+#io6u86 {
+	height:658px;
+}
+#i68nlu {
+	top:-81px;
+}
+#i15fdr {
+	height:658px;
+}
+#i9irsb {
+	height:658px;
+}
+#idg2n3 {
+	--reveal-delay:300ms;
+}
+#iw2oqk {
+	transform:translate3d(-1575px,0px,0px);
+}
+#ie5z0t {
+	--reveal-delay:calc(1 * 150ms);
+}
+#iugnf4 {
+	--reveal-delay:calc(2 * 150ms);
+}
+#ij7she {
+	--reveal-delay:calc(3 * 150ms);
+}
+#isdwsqj {
+	--reveal-delay:250ms;
+}
+#ijo71eb {
+	--reveal-delay:250ms;
+}
+#i6dtvlh {
+	--reveal-delay:250ms;
+}
+#it7cn13 {
+	--reveal-delay:250ms;
+}
+#igyz5cm {
+	--reveal-delay:calc((1 - 1) * 0.04s);
+}
+#il9xq9k {
+	--reveal-delay:calc((2 - 1) * 0.04s);
+}
+#ixinr0z {
+	--reveal-delay:250ms;
+}
+#i11142d {
+	height:0px;
+}
+#i5xrqp2 {
+	height:0px;
+}
+#iv3292c {
+	height:0px;
+}
+#iki4i2n {
+	height:0px;
+}
+#i86tlkk {
+	height:0px;
+}
+#i5nfkva {
+	display:none;
+}
+#idj2emh {
+	display:none;
+	visibility:hidden;
+}
+#ixn4f2y {
+	white-space:pre;
+}
+#iw4pqdj {
+	display:none;
+}
+#i35q8zi {
+	display:none;
+}
+#idagqtd {
+	display:none;
+}
+#_pix_id_450f2ab0-dc40-108e-8c6d-769f9b0858eb {
+	display:none;
+}
+#_pix_id_a5938756-f060-cbe6-1d66-e6508e6ebbeb {
+	display:none;
+}
+#_pix_id_714d6040-6939-40c2-9536-cadcf86e31e1 {
+	display:none;
+}
+#_pix_id_7a953892-27c6-3cdb-8e86-56542e8d0abe {
+	display:none;
+}
+#batBeacon713217226046 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#batBeacon520611356728 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#i9kx17x {
+	display:none;
+}
+#i7q0icu {
+	display:none;
+}
+#iii7xbq {
+	display:none;
+}
+#i0we9ut {
+	display:none;
+}
+#isvysc9 {
+	display:none;
+	visibility:hidden;
+}
+#ihb7uqm {
+	display:none;
+	visibility:hidden;
+}
+#i08orye {
+	display:none;
+	visibility:hidden;
+}
+#i1xlrpz {
+	display:none;
+	visibility:hidden;
+}
+#ijiiceg {
+	display:none;
+	visibility:hidden;
+}
+#icxrmoz {
+	pointer-events:none;
+	height:0px;
+	width:0px;
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	visibility:hidden;
+}
