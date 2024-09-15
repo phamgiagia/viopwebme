@@ -18,8 +18,13 @@ function generateInputEntries() {
             // Create a key for the entries object using directory names just above 'index.html'
             const name = pathSegments.slice(-3, -1).join('-'); // Customize this slicing as needed
 
-            // Ensure to resolve the file path correctly
-            entries[name] = resolve(file);
+            try {
+                // Ensure to resolve the file path correctly
+                entries[name] = resolve(file);
+            } catch (error) {
+                // Handle the error gracefully, e.g., log it or ignore it
+                console.error(`Error resolving file: ${file}`, error);
+            }
         }
     });
 
