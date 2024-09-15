@@ -14,7 +14,7 @@ const HtmlTransformPlugin = createUnplugin(() => ({
                 /src="https:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/[^/]+\/[^"]+"/g,
                 (match) => {
                     return match.replace(
-                        /https:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\//,
+                        /https:\/\/raw\.githubusercontent\.com\/[^/]+\/[^/]+\/main/,
                         '../../'
                     );
                 }
