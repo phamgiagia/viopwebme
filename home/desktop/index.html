@@ -691,7 +691,7 @@
             ><span class="font-bold text-xl" id="ixoq4i">Opweb</span>
           </div>
           <nav class="hidden md:flex items-center space-x-6">
-            <div id="productsx" class="relative group">
+            <div id="productsx_button" class="relative group">
               <span id="ilvveem" class="flex items-center">
                 PRODUCTS
                 <svg
@@ -711,7 +711,7 @@
               ></span>
             </div>
             <a href="#" id="i6jz339" class="hover:text-gray-300">TEMPLATES</a>
-            <div id="menu_resourcesx" class="relative group">
+            <div id="resourcesx_button" class="relative group">
               <span id="i07zf3g" class="flex items-center">
                 RESOURCES
                 <svg
@@ -772,7 +772,10 @@
             </style>
           </nav>
         </header>
-        <div id="menux_products" class="flex flex-wrap p-8 bg-black text-white">
+        <div
+          id="menux_products_data"
+          class="flex flex-wrap p-8 bg-black text-white"
+        >
           <div class="w-full md:w-1/4 mb-8">
             <h2 class="text-sm font-semibold mb-4 text-gray-500">
               CREATE A WEBSITE
@@ -992,11 +995,12 @@
         </div>
         <script>
           // Get references to the elements
-          const resourcesx = document.getElementById("menu_resourcesx");
-          const resourcesx_menu = document.getElementById("resourcesx-menu");
-          const productsx = document.getElementById("productsx");
-          const menux = document.getElementById("menux_products");
-
+          const resourcesx = document.getElementById("resourcesx_button");
+          const resourcesx_menu = document.getElementById("resourcesx_menu");
+          const productsx = document.getElementById("productsx_button");
+          const menux = document.getElementById("menux_products_data");
+          resourcesx_menu.style.display = "none";
+          menux.style.display = "none";
           // Optional: Toggle visibility of resourcesx_menu on click and hide menux
           resourcesx.addEventListener("click", function () {
             if (resourcesx_menu.style.display === "block") {
