@@ -994,33 +994,53 @@
           </p>
         </div>
         <script>
-          // Get references to the elements
-          const resourcesx_element = document.getElementById("resourcesx_button");
-          const resourcesx_menu = document.getElementById("resourcesx_menu");
-          const productsx_element = document.getElementById("productsx_button");
-          const menux = document.getElementById("menux_products_data");
-          resourcesx_menu.style.display = "none";
-          menux.style.display = "none";
-          // Optional: Toggle visibility of resourcesx_menu on click and hide menux
-          resourcesx_element.addEventListener("click", function () {
-            if (resourcesx_menu.style.display === "block") {
-              resourcesx_menu.style.display = "none";
-            } else {
-              resourcesx_menu.style.display = "block";
-              menux.style.display = "none"; // Hide menux when resourcesx_menu is opened
-            }
-          });
+          try {
+            // Get references to the elements
+            const resourcesx_element =
+              document.getElementById("resourcesx_button");
+            const resourcesx_menu = document.getElementById("resourcesx_menu");
+            const productsx_element =
+              document.getElementById("productsx_button");
+            const menux = document.getElementById("menux_products_data");
 
-          // Optional: Toggle visibility of menux on click and hide resourcesx_menu
-          productsx_element.addEventListener("click", function () {
-            if (menux.style.display === "flex") {
+            // Check if elements exist before proceeding
+            if (
+              resourcesx_element &&
+              resourcesx_menu &&
+              productsx_element &&
+              menux
+            ) {
+              resourcesx_menu.style.display = "none";
               menux.style.display = "none";
-            } else {
-              menux.style.display = "flex";
-              resourcesx_menu.style.display = "none"; // Hide resourcesx_menu when menux is opened
+
+              // Optional: Toggle visibility of resourcesx_menu on click and hide menux
+              resourcesx_element.addEventListener("click", function () {
+                if (resourcesx_menu.style.display === "block") {
+                  resourcesx_menu.style.display = "none";
+                } else {
+                  resourcesx_menu.style.display = "block";
+                  menux.style.display = "none"; // Hide menux when resourcesx_menu is opened
+                }
+              });
+
+              // Optional: Toggle visibility of menux on click and hide resourcesx_menu
+              productsx_element.addEventListener("click", function () {
+                if (menux.style.display === "flex") {
+                  menux.style.display = "none";
+                } else {
+                  menux.style.display = "flex";
+                  resourcesx_menu.style.display = "none"; // Hide resourcesx_menu when menux is opened
+                }
+              });
             }
-          });
+          } catch (error) {
+            console.error(
+              "An error occurred while setting up the menus:",
+              error
+            );
+          }
         </script>
+
         <div
           data-active-resource-index="0"
           data-transition-dir="null"
