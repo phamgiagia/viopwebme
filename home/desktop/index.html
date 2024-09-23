@@ -995,14 +995,14 @@
         </div>
         <script>
           // Get references to the elements
-          const resourcesx = document.getElementById("resourcesx_button");
+          const resourcesx_element = document.getElementById("resourcesx_button");
           const resourcesx_menu = document.getElementById("resourcesx_menu");
-          const productsx = document.getElementById("productsx_button");
+          const productsx_element = document.getElementById("productsx_button");
           const menux = document.getElementById("menux_products_data");
           resourcesx_menu.style.display = "none";
           menux.style.display = "none";
           // Optional: Toggle visibility of resourcesx_menu on click and hide menux
-          resourcesx.addEventListener("click", function () {
+          resourcesx_element.addEventListener("click", function () {
             if (resourcesx_menu.style.display === "block") {
               resourcesx_menu.style.display = "none";
             } else {
@@ -1012,7 +1012,7 @@
           });
 
           // Optional: Toggle visibility of menux on click and hide resourcesx_menu
-          productsx.addEventListener("click", function () {
+          productsx_element.addEventListener("click", function () {
             if (menux.style.display === "flex") {
               menux.style.display = "none";
             } else {
