@@ -174,7 +174,9 @@
             href="/templates"
             data-identifier="inline-cta"
             class="www-navigation__mobile__inline-cta"
-            ><span data-sl-variant="get-started-colloquial" id="ipd9k"
+            ><span
+              data-sl-variant="get-started-colloquial"
+              style="color: aqua !important"
               >Get started</span
             ></a
           >
@@ -686,74 +688,69 @@
       </div>
       <div class="www-navigation__desktop">
         <header
-          id="ix981l"
           class="flex justify-between items-center p-4 border-b border-gray-800 bg-black text-white"
+          id="ix981l"
         >
           <div class="flex items-center space-x-4">
             <svg
               viewBox="0 0 24 24"
               fill="currentColor"
-              id="iijj6x"
               class="w-8 h-8"
+              id="iijj6x"
             >
               <path
                 d="M20.93,11.67a5.2,5.2,0,0,0-1.34-3.67L12,3.5,4.41,8a5.21,5.21,0,0,0-1.34,3.67v4.67A5.21,5.21,0,0,0,4.41,20L12,24.5l7.59-4.5a5.2,5.2,0,0,0,1.34-3.66V11.67ZM12,22.25,5.3,18.25a3.38,3.38,0,0,1-.89-2.42V12.33a3.38,3.38,0,0,1,.89-2.42L12,5.75l6.7,4a3.38,3.38,0,0,1,.89,2.42v3.5a3.38,3.38,0,0,1-.89,2.42Z"
               ></path></svg
-            ><span id="ixoq4i" class="font-bold text-xl">Opweb</span>
+            ><span class="font-bold text-xl" id="ixoq4i">Opweb</span>
           </div>
-          <nav id="i4mb7e" class="hidden md:flex items-center space-x-6">
+          <nav class="hidden md:flex items-center space-x-6">
             <div id="productsx_button" class="relative group">
-              <span id="ilvveem" class="flex items-center"
-                ><span id="ilvveem-2" class="flex items-center">
-                  SẢN PHẨM
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    id="inq867i"
-                    class="w-4 h-4 ml-1"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M19 9l-7 7-7-7"
-                    ></path></svg></span
+              <span id="ilvveem" class="flex items-center">
+                PRODUCTS
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="inq867i"
+                  class="w-4 h-4 ml-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path></svg
               ></span>
             </div>
-            <a href="#" id="i6jz339" class="hover:text-gray-300"
-              ><span id="iacvdq2">MẪU WEB</span></a
-            >
+            <a href="#" id="i6jz339" class="hover:text-gray-300">TEMPLATES</a>
             <div id="resourcesx_button" class="relative group">
-              <span id="i07zf3g" class="flex items-center"
-                ><span id="i07zf3g-2" class="flex items-center"
-                  ><span id="i07zf3g-2-2" class="flex items-center">
-                    TÀI NGUYÊN
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      id="ibexnv"
-                      class="w-4 h-4 ml-1"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      ></path></svg></span></span
+              <span id="i07zf3g" class="flex items-center">
+                RESOURCES
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 ml-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path></svg
               ></span>
             </div>
-            <a href="#" id="irbvbx" class="hover:text-gray-300"
-              ><span id="iokp4bv">ĐĂNG NHẬP</span></a
+            <a href="#" class="hover:text-gray-300">LOG IN</a
             ><a
               href="#"
               id="custom-button"
               class="px-4 py-2 transition-colors duration-200"
-              ><span id="i3x9tll">BẮT ĐẦU</span></a
             >
+              GET STARTED
+            </a>
+
             <script>
               document.addEventListener("DOMContentLoaded", function () {
                 const button = document.getElementById("custom-button");
@@ -779,6 +776,13 @@
                 });
               });
             </script>
+
+            <style>
+              /* Add smooth transition */
+              #custom-button {
+                transition: all 0.2s ease-in-out;
+              }
+            </style>
           </nav>
         </header>
         <div
@@ -786,170 +790,104 @@
           class="flex flex-wrap p-8 bg-black text-white"
         >
           <div class="w-full md:w-1/4 mb-8">
-            <h2 id="it72y9" class="text-sm font-semibold mb-4 text-gray-500">
-              TẠO TRANG WEB
+            <h2 class="text-sm font-semibold mb-4 text-gray-500">
+              CREATE A WEBSITE
             </h2>
             <ul class="space-y-2">
               <li>
-                <a href="#" id="ipncj9" class="hover:text-gray-300"
-                  ><span id="ikwh3ik">Tổng quan về trang web</span></a
-                >
-              </li>
-              <li id="ioqtif">
-                <a href="#" id="i6zump" class="hover:text-gray-300"
-                  ><span id="iq1l3m3">Mẫu trang web</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Website Overview</a>
               </li>
               <li>
-                <a href="#" id="ibroqj" class="hover:text-gray-300"
-                  ><span id="ipcf4zp">Thiết kế thông minh</span></a
+                <a href="#" class="hover:text-gray-300">Website Templates</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-gray-300">Design Intelligence</a
                 ><span class="ml-2 px-1 bg-white text-black text-xs rounded"
                   >New</span
                 >
               </li>
               <li>
-                <a href="#" id="i2lxy5" class="hover:text-gray-300"
-                  ><span id="ibrvufx">Đối với danh mục đầu tư</span></a
-                >
+                <a href="#" class="hover:text-gray-300">For Portfolios</a>
+              </li>
+              <li><a href="#" class="hover:text-gray-300">For Blogs</a></li>
+              <li><a href="#" class="hover:text-gray-300">Analytics</a></li>
+              <li>
+                <a href="#" class="hover:text-gray-300">Hire an Expert</a>
               </li>
               <li>
-                <a href="#" id="igpbov" class="hover:text-gray-300"
-                  ><span id="i63sc0z">Dành cho Blog</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="i2w6gl" class="hover:text-gray-300"
-                  ><span id="iwb72mi">phân tích</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="im9mue" class="hover:text-gray-300"
-                  ><span id="idfpxvh">Thuê một chuyên gia</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="i5b80s" class="hover:text-gray-300"
-                  ><span id="i4w2yb9">Giải pháp Doanh nghiệp</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Enterprise Solutions</a>
               </li>
             </ul>
-            <h2
-              id="ienlpy"
-              class="text-sm font-semibold mt-8 mb-4 text-gray-500"
-            >
-              TÌM TÊN MIỀN
+            <h2 class="text-sm font-semibold mt-8 mb-4 text-gray-500">
+              GET A DOMAIN
             </h2>
             <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-300">Find a Domain</a></li>
               <li>
-                <a href="#" id="i54w2z" class="hover:text-gray-300"
-                  ><span id="ipuvfk2"></span></a
-                ><a href="/find_domain" id="iwxst8q">Tìm tên miền</a>
-              </li>
-              <li id="idv1xf">
-                <a href="#" id="i4kd4z" class="hover:text-gray-300"
-                  ><span id="idwcyjl">Chuyển tên miền</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Transfer a Domain</a>
               </li>
             </ul>
           </div>
           <div class="w-full md:w-1/4 mb-8">
-            <h2 id="i2gkky" class="text-sm font-semibold mb-4 text-gray-500">
-              WEB BÁN HÀNG
+            <h2 class="text-sm font-semibold mb-4 text-gray-500">
+              SELL ANYTHING
             </h2>
             <ul class="space-y-2">
               <li>
-                <a href="#" id="ipz28v" class="hover:text-gray-300"
-                  ><span id="ijdiuvy">Tổng quan về thương mại điện tử</span></a
+                <a href="#" class="hover:text-gray-300">Ecommerce Overview</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-gray-300"
+                  >Templates for Sellers</a
+                >
+              </li>
+              <li><a href="#" class="hover:text-gray-300">Sell Products</a></li>
+              <li><a href="#" class="hover:text-gray-300">Sell Services</a></li>
+              <li><a href="#" class="hover:text-gray-300">Scheduling</a></li>
+              <li>
+                <a href="#" class="hover:text-gray-300"
+                  >Content &amp; Memberships</a
                 >
               </li>
               <li>
-                <a href="#" id="icqkdn" class="hover:text-gray-300"
-                  ><span id="ibbumbg">Mẫu cho người bán</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="if31wh" class="hover:text-gray-300"
-                  ><span id="i34uusg">Bán sản phẩm</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="i2scj6" class="hover:text-gray-300"
-                  ><span id="ihkgvgh"></span></a
-                ><a href="" id="ifirc5y"><span id="iedxwrt">bán </span></a
-                >sản phẩm dịch vụ
-              </li>
-              <li id="iht9mn">
-                <a href="#" id="i5diaj" class="hover:text-gray-300"
-                  >Lên lịch hẹn</a
-                >
-              </li>
-              <li>
-                <a href="#" id="i6qht3" class="hover:text-gray-300"
-                  ><span id="ic19o6i"
-                    >Nội dung &amp; Tư cách thành viên</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="#" id="i6p1ek" class="hover:text-gray-300"
-                  ><span id="i6phm6g">Lập hóa đơn</span></a
+                <a href="#" class="hover:text-gray-300">Invoicing</a
                 ><span class="ml-2 px-1 bg-white text-black text-xs rounded"
                   >New</span
                 >
               </li>
               <li>
-                <a href="#" id="i3byip" class="hover:text-gray-300">quyên góp</a
+                <a href="#" class="hover:text-gray-300">Donations</a
                 ><span class="ml-2 px-1 bg-white text-black text-xs rounded"
                   >New</span
                 >
               </li>
               <li>
-                <a href="#" id="i9wm0a" class="hover:text-gray-300"
-                  ><span id="ibr106i">Quản lý cửa hàng</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Store Management</a>
               </li>
               <li>
-                <a href="#" id="i1j98x" class="hover:text-gray-300"
-                  ><span id="inqe0td">Tiện ích mở rộng thương mại</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Commerce Extensions</a>
               </li>
             </ul>
           </div>
-          <div id="i03gv4" class="w-full md:w-1/4 mb-8">
-            <h2 id="i52nti" class="text-sm font-semibold mb-4 text-gray-500">
-              XÂY DỰNG THƯƠNG HIỆU CỦA BẠN
+          <div class="w-full md:w-1/4 mb-8">
+            <h2 class="text-sm font-semibold mb-4 text-gray-500">
+              BUILD YOUR BRAND
             </h2>
             <ul class="space-y-2">
               <li>
-                <a href="#" id="iyofdj" class="hover:text-gray-300"
-                  ><span id="isys589">Tổng quan về Tiếp thị</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Marketing Overview</a>
               </li>
               <li>
-                <a href="#" id="ipsvjg" class="hover:text-gray-300"
-                  ><span id="itrxkhh">Tiếp thị qua email</span></a
-                >
+                <a href="#" class="hover:text-gray-300">Email Marketing</a>
               </li>
-              <li id="ioffvx">
-                <a href="#" id="inpv4t" class="hover:text-gray-300"
-                  ><span id="irzz0nl">Công cụ SEO</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="inbz3j" class="hover:text-gray-300"
-                  ><span id="ij6v9xq">Công cụ người sáng tạo</span></a
-                >
-              </li>
-              <li>
-                <a href="#" id="idgbit" class="hover:text-gray-300"
-                  ><span id="ixjuc4m">Trình tạo logo</span></a
-                >
-              </li>
+              <li><a href="#" class="hover:text-gray-300">SEO Tools</a></li>
+              <li><a href="#" class="hover:text-gray-300">Creator Tools</a></li>
+              <li><a href="#" class="hover:text-gray-300">Logo Maker</a></li>
             </ul>
           </div>
-          <div id="iuc5mg" class="w-full md:w-1/4">
-            <h2 id="ii5oru" class="text-sm font-semibold mb-4 text-gray-500">
-              FROM Opweb
+          <div class="w-full md:w-1/4">
+            <h2 class="text-sm font-semibold mb-4 text-gray-500">
+              FROM SQUARESPACE
             </h2>
             <ul class="space-y-4">
               <li class="flex items-start">
@@ -961,11 +899,9 @@
                   <rect width="24" height="24" rx="4"></rect>
                 </svg>
                 <div>
-                  <h3 id="ielu5e" class="font-semibold">
-                    <span id="ifid9cr">Lập kế hoạch sắc nét</span>
-                  </h3>
-                  <p id="ialcu4" class="text-sm text-gray-500">
-                    Giải pháp lên lịch cho các dịch vụ dựa trên cuộc hẹn
+                  <h3 class="font-semibold">Acuity Scheduling</h3>
+                  <p class="text-sm text-gray-500">
+                    The scheduling solution for appointment-based services
                   </p>
                 </div>
               </li>
@@ -978,9 +914,9 @@
                   <circle cx="12" cy="12" r="10"></circle>
                 </svg>
                 <div>
-                  <h3 id="i7xnuo" class="font-semibold">Trang web sinh học</h3>
-                  <p id="ie8qgg" class="text-sm text-gray-500">
-                    Chia sẻ thế giới trực tuyến của bạn trong một liên kết
+                  <h3 class="font-semibold">Bio Sites</h3>
+                  <p class="text-sm text-gray-500">
+                    Share your online world in one link
                   </p>
                 </div>
               </li>
@@ -995,11 +931,9 @@
                   ></path>
                 </svg>
                 <div>
-                  <h3 id="iwdtqg" class="font-semibold">
-                    <span id="i858i05">Mở ra</span>
-                  </h3>
-                  <p id="iz10yj" class="text-sm text-gray-500">
-                    Mọi thứ để nổi bật trên mạng xã hội
+                  <h3 class="font-semibold">Unfold</h3>
+                  <p class="text-sm text-gray-500">
+                    Everything to stand out on social
                   </p>
                 </div>
               </li>
@@ -1014,10 +948,10 @@
                   ></path>
                 </svg>
                 <div>
-                  <h3 id="i7oml8" class="font-semibold">Tock</h3>
-                  <p id="ir3i6t" class="text-sm text-gray-500">
-                    Nền tảng đặt phòng hàng đầu cho nhà hàng, nhà máy rượu vang
-                    và khách sạn
+                  <h3 class="font-semibold">Tock</h3>
+                  <p class="text-sm text-gray-500">
+                    The leading reservation platform for restaurants, wineries,
+                    and hotels
                   </p>
                 </div>
               </li>
@@ -1028,58 +962,48 @@
           <!-- Main Content -->
           <div class="flex flex-col md:flex-row py-12">
             <!-- Left Column -->
-            <div id="idzkng" class="md:w-1/2 mb-8 md:mb-0">
-              <h2 id="is288l" class="text-4xl font-bold mb-6">
-                Made with Opweb                 <span
-                  class="inline-block transform rotate-45"
-                  >→</span
-                >
+            <div class="md:w-1/2 mb-8 md:mb-0">
+              <h2 class="text-4xl font-bold mb-6">
+                Made with Squarespace
+                <span class="inline-block transform rotate-45">→</span>
               </h2>
-              <nav id="i34evg" class="space-y-4">
+              <nav class="space-y-4">
                 <a
                   href="#"
-                  id="i0otz2"
                   class="block text-2xl text-gray-500 hover:text-white"
-                  >Opweb Blog</a
+                  >Squarespace Blog</a
                 ><a
                   href="#"
-                  id="iblsxp"
                   class="block text-2xl text-gray-500 hover:text-white"
-                  ><span id="i2sqqja">Trung tâm trợ giúp</span></a
+                  >Help Center</a
                 ><a
                   href="#"
-                  id="ivipfz"
                   class="block text-2xl text-gray-500 hover:text-white"
-                  ><span id="iqr9x53">Diễn đàn</span></a
+                  >Forum</a
                 ><a
                   href="#"
-                  id="i9u1ny"
                   class="block text-2xl text-gray-500 hover:text-white"
-                  ><span id="icnozwi">Hội thảo trên web</span></a
+                  >Webinars</a
                 ><a
                   href="#"
-                  id="im8eka"
                   class="block text-2xl text-gray-500 hover:text-white"
-                  ><span id="icjabah">Dành cho các chuyên gia</span></a
+                  >For Professionals</a
                 >
               </nav>
             </div>
             <!-- Right Column -->
             <div class="md:w-1/2">
               <img
-                src="https://raw.githubusercontent.com/phamgiagia/viopwebme/main/images/web%20back%20ground%20black%20friday.webp"
+                src="/placeholder.svg?height=400&width=600"
                 alt="Colorful beverage cans and glasses"
-                id="ig8rpi"
                 class="w-full rounded-lg"
               />
             </div>
           </div>
           <!-- Caption -->
-          <p id="i5iwkw" class="text-sm text-gray-500 pb-8">
-            <span id="ifz7ozo"
-              >Một bộ sưu tập các trang web truyền cảm hứng được thực hiện bởi
-              những người dùng Opweb thực sự.</span
-            >
+          <p class="text-sm text-gray-500 pb-8">
+            A collection of inspirational websites made by real Squarespace
+            users.
           </p>
         </div>
         <script>
@@ -1129,6 +1053,7 @@
             );
           }
         </script>
+
         <div
           data-active-resource-index="0"
           data-transition-dir="null"
@@ -1740,8 +1665,7 @@
           <div id="iy5ubb" class="hero__headline">
             <h1 id="i21f4r" class="text text--title1 text--light">
               <span id="iakalh"
-                ><br /><br /><br />Tạo Website <br />đẳng cấp<br />Tối ưu chi
-                phí<br /><br /><br /><br
+                ><br />Tối ưu <br />ngân sách Web Marketing <br />của bạn với<br /><br /><br
               /></span>
             </h1>
             <img
@@ -1754,11 +1678,11 @@
               id="i3rh3r"
               class="hero__background-image"
             />
-            <div id="igdtjba" class="gjs-row"></div>
           </div>
           <div id="ikrgi8" class="hero__cta-container">
             <span id="iq4vgu"
-              >Với Nền tảng Web siêu đẳng <br />Lên sóng online chỉ với 99k<br
+              >Tạo cho riêng bạn website chuyên nghiệp<br />Lên sóng chỉ với
+              99k<br
             /></span>
             <p class="text text--body text--light hero__cta-subtitle">
               <span id="imar1h"></span>
@@ -2091,16 +2015,13 @@
             </div>
           </div>
           <div id="ip429l" class="templates__mobile">
-            <div id="ii14jh" class="templates__mobile-headline">
+            <div class="templates__mobile-headline">
               <h2 id="i2drm2" class="text text--subtitle1">
-                Bắt đầu với Chọn phong cách của đối thủ cạnh tranh hoặc chọn từ
-                các mẫu trang web tiêu chuẩn quốc tế của chúng tôi tùy chỉnh nó
-                để phù hợp với phong cách cá nhân của bạn.
+                Start with Choose a competitor’s style or select from our
+                international-standard website templates customize it to fit
+                your personal style.
               </h2>
-              <a
-                href="/templates"
-                id="iz2viy"
-                class="cta cta--tertiary cta--has-arrow"
+              <a href="/templates" class="cta cta--tertiary cta--has-arrow"
                 >Browse templates<span data-arrow="true" aria-hidden="true"
                   >→</span
                 ></a
@@ -2322,12 +2243,10 @@
               id="izqpyy"
               class="text text--title3 text--light headline__title"
             >
-              Công cụ chỉnh sửa Kéo Thả kết hơp AI giúp bạn chỉnh sửa nội dung
-              Pro hơn nhanh hơn
+              Tối ưu hóa ngân sách của bạn với nền tảng Website vượt trội
             </h3>
           </div>
           <div
-            id="ik1kr1r"
             class="feature-highlight feature-highlight--m feature-highlight--m-left-asset feature-highlight--no-padding-top designed-to-sell__mobile-feature-highlight"
           >
             <div>
@@ -2360,40 +2279,30 @@
                     width="2744"
                     height="2744" />
                   <img
-                    src="https://images.unsplash.com/photo-1712002641088-9d76f9080889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NTM3NDF8MHwxfHNlYXJjaHwyMHx8QWl8ZW58MHx8fHwxNzI3MzQ3NDA5fDA&ixlib=rb-4.0.3&q=85"
+                    src="https://media-www.sqspcdn.com/images/pages/homepage/aug-2023/grow-your-business/designed-to-sell/designed-to-sell-3-mobile-500w.jpg"
                     alt="An ecommerce website showcasing a beige lighting fixture sculpture with a red curtain-like background, featuring a 'Shop Now' button and sale highlights."
                     loading="lazy"
                     width="2744"
                     height="2744"
                     decoding="async"
-                    id="i5yg3qa"
                 /></picture>
               </div>
             </div>
-            <div id="ini8ck9">
+            <div>
               <p
                 id="i899iv"
                 class="text text--body text--light feature-highlight__m-feature-body feature-highlight__m-first-column-child"
               >
-                Khởi chạy một cửa hàng thương mại điện tử, đặt lịch hẹn cho nhà
-                môi giới, bán các dịch vụ, giới thiệu doanh nghiệp, tạo form thu
-                thập leads khách hàng, bán các loại sản phẩm,.... Tất cả đều có
-                thể làm với opweb
+                Khởi chạy một cửa hàng thương mại điện tử, đặt lịch hẹn, bán các
+                khóa học trực tuyến, lập hóa đơn cho khách hàng của bạn và hơn
+                thế nữa.
               </p>
               <a
                 href="/templates"
                 column="2"
                 row="2"
-                id="irn56ed"
                 class="cta cta--tertiary cta--light cta--has-arrow designed-to-sell__mobile-cta"
-              ></a
-              ><a
-                href="/templates"
-                column="2"
-                row="2"
-                id="irn56ed-2"
-                class="cta cta--tertiary cta--light cta--has-arrow designed-to-sell__mobile-cta"
-                >Bắt đầu bán online<span data-arrow="true" aria-hidden="true"
+                >Start selling<span data-arrow="true" aria-hidden="true"
                   >→</span
                 ></a
               >
@@ -2471,7 +2380,6 @@
               <div class="feature-highlight__xl-asset">
                 <a
                   href="/templates/rotate-fluid-demo"
-                  id="iqvlcf"
                   class="cta cta--inline cta--light"
                   ><picture
                     ><img
@@ -2481,51 +2389,42 @@
                       width="1500"
                       height="2000"
                       decoding="async"
-                      id="ium3dj" />
-                    <div id="itpc6pj" class="gjs-row">
-                      <div id="ikbr4a1" class="gjs-cell"></div>
-                    </div>
-                    <div id="i1eu2if" class="gjs-row">
-                      <div id="i56fbdd" class="gjs-cell">
-                        <h4
-                          id="ibk50u"
-                          class="text text--subtitle3 text--light feature-highlight__xl-heading"
-                        >
-                          Lên lịch hẹn cho nhà môi giới
-                        </h4>
-                        <p
-                          id="i59d5r"
-                          class="text text--body text--light feature-highlight__xl-body"
-                        >
-                          Nếu bạn là một nhà môi giới bất động sản, hay bảo hiểm
-                          hay các lĩnh vực khác, bạn có thể dễ dàng tạo lịch hẹn
-                          với khách hàng từ website của bạn, Loại bỏ những rắc
-                          rối khi lên lịch trực tuyến với các công cụ để giữ cho
-                          khách hàng của bạn hài lòng và lịch của bạn được đặt
-                          trước. Quảng bá tính khả dụng của bạn, chấp nhận thanh
-                          toán và hơn thế nữa.
-                        </p>
-                      </div>
-                      <div id="in15n7o" class="gjs-cell">
-                        <img
-                          id="i3peov2"
-                          src="https://raw.githubusercontent.com/phamgiagia/viopwebme/main/images/Real%20Estate%20(instagram%20post).svg"
-                        />
-                      </div></div></picture
+                      id="ium3dj" /></picture
                 ></a>
               </div>
               <div id="i6855j" class="feature-highlight__xl-copy">
-                <div class="feature-highlight__xl-cta-container"></div>
-                <div id="ij24fd3" class="gjs-row"></div>
+                <h4
+                  id="ibk50u"
+                  class="text text--subtitle3 text--light feature-highlight__xl-heading"
+                >
+                  Lên lịch hẹn cho nhà môi giới
+                </h4>
+                <p
+                  id="i59d5r"
+                  class="text text--body text--light feature-highlight__xl-body"
+                >
+                  Nếu bạn là một nhà môi giới bất động sản, hay bảo hiểm hay các
+                  lĩnh vực khác, bạn có thể dễ dàng tạo lịch hẹn với khách hàng
+                  từ website của bạn, Loại bỏ những rắc rối khi lên lịch trực
+                  tuyến với các công cụ để giữ cho khách hàng của bạn hài lòng
+                  và lịch của bạn được đặt trước. Quảng bá tính khả dụng của
+                  bạn, chấp nhận thanh toán và hơn thế nữa.
+                </p>
+                <div class="feature-highlight__xl-cta-container">
+                  <a
+                    href="/scheduling"
+                    id="ih2zai"
+                    class="cta cta--secondary cta--light cta--has-arrow feature-highlight__xl-cta"
+                    ><span data-arrow="true" aria-hidden="true"
+                      >Khám phá việc đặt lịch→</span
+                    ></a
+                  >
+                </div>
               </div>
-              <a
-                href="/scheduling"
-                id="ih2zai"
-                class="cta cta--secondary cta--light cta--has-arrow feature-highlight__xl-cta"
-                ><span data-arrow="true" aria-hidden="true"
-                  >Khám phá việc đặt lịch→</span
-                ></a
-              >
+              <img
+                id="i386p8n"
+                src="https://raw.githubusercontent.com/phamgiagia/viopwebme/main/images/Real%20Estate%20(instagram%20post).svg"
+              />
             </div>
           </div>
         </div>
@@ -2574,7 +2473,7 @@
           />
         </div>
         <div
-          id="ir554l-2"
+          id="ir554l"
           class="feature-highlight feature-highlight--m feature-highlight--m-left-asset feature-highlight--no-padding-top invoice"
         >
           <div id="iumc6g">
@@ -2625,17 +2524,14 @@
                   height="1530"
               /></picture>
             </div>
-            <img
-              id="im0jy0g"
-              src="https://images.unsplash.com/photo-1531058020387-3be344556be6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2NTM3NDF8MHwxfHNlYXJjaHw4fHxldmVudHxlbnwwfHx8fDE3MjcxODEyNjJ8MA&ixlib=rb-4.0.3&q=85"
-            />
+            <img id="im0jy0g" src="" />
           </div>
-          <div id="ih1ftkl">
+          <div>
             <h4
               id="ivyvqpl-2-2"
               class="text text--subtitle3 text--light feature-highlight__m-feature-heading feature-highlight__m-feature-heading--single-feature feature-highlight__m-first-column-child"
             >
-              Tổ chức và Quảng bá các sự kiện thể thao, giải trí, tiệc cưới
+              Tổ chức và Quảng bá các sự kiện thể thao, giải trí của bạn
             </h4>
             <p
               id="imrix88-2-2"
@@ -2663,7 +2559,7 @@
       <section id="market-your-business" class="market-your-business">
         <div id="i5kogx9" class="statement">
           <h2 id="ip8ixh3" class="text text--display statement__heading">
-            nâng tầm thương hiệu cá nhân hay doanh nghiệp
+            nâng cao thương hiệu cá nhân của bạn
           </h2>
         </div>
         <div
@@ -2671,8 +2567,7 @@
           class="headline headline--no-padding-top recirculation__headline"
         >
           <h3 id="i83fo9f" class="text text--subtitle1 headline__title">
-            Một nền tảng trang web dành cho bạn, giúp bạn tiết kiệm chi phí
-            nhưng vẫn hiệu quả
+            Một nền tảng trang web dành cho bạn
           </h3>
         </div>
         <h2
@@ -2842,77 +2737,72 @@
                 <div id="i3je6db" class="recirculation__scrollbar">
                   <div class="recirculation__scrollbar-ui"></div>
                 </div>
-                <div id="i7rlwqw" class="gjs-row">
-                  <div id="ixoevsv" class="gjs-cell">
-                    <img
-                      id="igi97ir"
-                      src="https://raw.githubusercontent.com/phamgiagia/viopwebme/main/images/DIGITAL%20%20MARKETING%20AGENCY%20%20template%20with%20blue%20background%20(Facebook%20Post)%20(Instagram%20Story).svg"
-                    />
-                  </div>
-                  <div class="gjs-cell">
-                    <div
-                      id="izoda0g-6"
-                      class="side-by-side side-by-side--no-padding-top"
+              </div>
+              <div
+                id="izoda0g"
+                class="side-by-side side-by-side--no-padding-top"
+              >
+                <div
+                  id="izoda0g-6"
+                  class="side-by-side side-by-side--no-padding-top"
+                >
+                  <div id="iyc5b4">
+                    <p
+                      class="text text--body side-by-side__subtext market-your-business__mobile-body"
                     >
-                      <div id="iyc5b4">
-                        <p
-                          class="text text--body side-by-side__subtext market-your-business__mobile-body"
-                        >
-                          SEO tools and social media integrations to maximize
-                          your reach, plus branded email campaigns for
-                          effortless communication.
-                        </p>
-                        <a
-                          href="/website-marketing"
-                          class="cta cta--tertiary cta--has-arrow market-your-business__mobile-cta"
-                          >Explore marketing tools<span
-                            data-arrow="true"
-                            aria-hidden="true"
-                            >→</span
-                          ></a
-                        ><a
-                          href="/website-marketing"
-                          id="ijon1fh"
-                          class="cta cta--secondary side-by-side__cta market-your-business__desktop-cta"
-                          >Explore marketing tools<span id="i5etiz9"></span
-                        ></a>
-                      </div>
-                      <div class="side-by-side__asset"><picture></picture></div>
-                      <h3 id="iffytbz" class="text text--subtitle3">
-                        Phát triển khách hàng tiềm năng của bạn
-                      </h3>
-                      <p
-                        id="it2k1b5"
-                        class="text text--body side-by-side__bullet-body"
-                      >
-                        Các công cụ SEO tích hợp và tích hợp phương tiện truyền
-                        thông xã hội để tối đa hóa phạm vi tiếp cận của bạn và
-                        kết nối với cộng đồng của bạn.
-                      </p>
-                      <h3 id="i1ezoxm" class="text text--subtitle3">
-                        Tương tác với khách hàng
-                      </h3>
-                      <p
-                        id="i3p0c8x"
-                        class="text text--body side-by-side__bullet-body"
-                      >
-                        Các chiến dịch email thu hút màu sắc, sản phẩm và bài
-                        đăng trên blog của trang web của bạn để giao tiếp của
-                        bạn dễ dàng mang lại cảm giác phù hợp với thương hiệu.
-                      </p>
-                      <h3 id="idb1amy" class="text text--subtitle3">
-                        Tối ưu hóa với phân tích
-                      </h3>
-                      <p
-                        id="ipuihza"
-                        class="text text--body side-by-side__bullet-body"
-                      >
-                        Thông tin chi tiết về những người đang truy cập trang
-                        web của bạn, hoạt động của cửa hàng trực tuyến của bạn
-                        như thế nào và hơn thế nữa.
-                      </p>
-                    </div>
+                      SEO tools and social media integrations to maximize your
+                      reach, plus branded email campaigns for effortless
+                      communication.
+                    </p>
+                    <a
+                      href="/website-marketing"
+                      class="cta cta--tertiary cta--has-arrow market-your-business__mobile-cta"
+                      >Explore marketing tools<span
+                        data-arrow="true"
+                        aria-hidden="true"
+                        >→</span
+                      ></a
+                    ><a
+                      href="/website-marketing"
+                      id="ijon1fh"
+                      class="cta cta--secondary side-by-side__cta market-your-business__desktop-cta"
+                      >Explore marketing tools<span id="i5etiz9"></span
+                    ></a>
                   </div>
+                  <div class="side-by-side__asset"><picture></picture></div>
+                  <h3 id="iffytbz" class="text text--subtitle3">
+                    Phát triển khách hàng tiềm năng của bạn
+                  </h3>
+                  <p
+                    id="it2k1b5"
+                    class="text text--body side-by-side__bullet-body"
+                  >
+                    Các công cụ SEO tích hợp và tích hợp phương tiện truyền
+                    thông xã hội để tối đa hóa phạm vi tiếp cận của bạn và kết
+                    nối với cộng đồng của bạn.
+                  </p>
+                  <h3 id="i1ezoxm" class="text text--subtitle3">
+                    Tương tác với khách hàng
+                  </h3>
+                  <p
+                    id="i3p0c8x"
+                    class="text text--body side-by-side__bullet-body"
+                  >
+                    Các chiến dịch email thu hút màu sắc, sản phẩm và bài đăng
+                    trên blog của trang web của bạn để giao tiếp của bạn dễ dàng
+                    mang lại cảm giác phù hợp với thương hiệu.
+                  </p>
+                  <h3 id="idb1amy" class="text text--subtitle3">
+                    Tối ưu hóa với phân tích
+                  </h3>
+                  <p
+                    id="ipuihza"
+                    class="text text--body side-by-side__bullet-body"
+                  >
+                    Thông tin chi tiết về những người đang truy cập trang web
+                    của bạn, hoạt động của cửa hàng trực tuyến của bạn như thế
+                    nào và hơn thế nữa.
+                  </p>
                 </div>
               </div>
             </div>
@@ -3195,8 +3085,8 @@
           ><a
             href="/showcase"
             class="cta cta--inline cta--light support__links-cta support--is-desktop responsive-support__cta--mobile"
-            ><p id="i3dnjnz" class="text text--subtitle2 text--light">
-              Lựa chọn hàng ngàn mẫu web chuẩn quốc tế giúp tối ưu tìm kiếm
+            ><p class="text text--subtitle2 text--light">
+              Browse website examples
             </p>
             <p class="text text--body text--light support__links-cta-arrow">
               →
@@ -3204,8 +3094,8 @@
           ><a
             href="/how-to/build-a-website"
             class="cta cta--inline cta--light support__links-cta support--is-desktop responsive-support__cta--mobile"
-            ><p id="iej30g5" class="text text--subtitle2 text--light">
-              làm thế nào để bắt đầu
+            ><p class="text text--subtitle2 text--light">
+              Learn how to get started
             </p>
             <p class="text text--body text--light support__links-cta-arrow">
               →
@@ -3228,8 +3118,7 @@
           id="i2nvdz6"
           class="text text--title1 text--light conversion__title"
         >
-          Bắt đầu <span id="i6rwfgm">trang web  của bạn ngay bây giờ</span
-          ><br />
+          Bắt đầu trang web dùng thử của bạn ngay bây giờ
         </h2>
         <p
           data-sl-variant="e3c0b7ad1c4f3c6d268bcd60a22ec5bd"
@@ -3322,7 +3211,6 @@
           viewBox="0 0 670 238"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          id="igynajb"
         >
           <path
             d="M296.455 138.455C289.636 138.455 283.727 136.955 278.727 133.955C273.727 130.955 269.848 126.758 267.091 121.364C264.364 115.97 263 109.667 263 102.455C263 95.2424 264.364 88.9242 267.091 83.5C269.848 78.0758 273.727 73.8636 278.727 70.8636C283.727 67.8636 289.636 66.3636 296.455 66.3636C303.273 66.3636 309.182 67.8636 314.182 70.8636C319.182 73.8636 323.045 78.0758 325.773 83.5C328.53 88.9242 329.909 95.2424 329.909 102.455C329.909 109.667 328.53 115.97 325.773 121.364C323.045 126.758 319.182 130.955 314.182 133.955C309.182 136.955 303.273 138.455 296.455 138.455ZM296.545 125.273C300.242 125.273 303.333 124.258 305.818 122.227C308.303 120.167 310.152 117.409 311.364 113.955C312.606 110.5 313.227 106.652 313.227 102.409C313.227 98.1364 312.606 94.2727 311.364 90.8182C310.152 87.3333 308.303 84.5606 305.818 82.5C303.333 80.4394 300.242 79.4091 296.545 79.4091C292.758 79.4091 289.606 80.4394 287.091 82.5C284.606 84.5606 282.742 87.3333 281.5 90.8182C280.288 94.2727 279.682 98.1364 279.682 102.409C279.682 106.652 280.288 110.5 281.5 113.955C282.742 117.409 284.606 120.167 287.091 122.227C289.606 124.258 292.758 125.273 296.545 125.273Z"
