@@ -310,52 +310,57 @@
             </div>
 
             <script>
-              const menuToggle = document.getElementById("menu-toggle");
-              const fullscreenMenu = document.getElementById("fullscreen-menu");
-              let isMenuOpen = false;
+              try {
+                const menuToggle = document.getElementById("menu-toggle");
+                const fullscreenMenu =
+                  document.getElementById("fullscreen-menu");
+                let isMenuOpen = false;
 
-              menuToggle.addEventListener("click", () => {
-                isMenuOpen = !isMenuOpen;
-                menuToggle.setAttribute("aria-expanded", isMenuOpen);
-                fullscreenMenu.classList.toggle("opacity-0");
-                fullscreenMenu.classList.toggle("pointer-events-none");
-                document.body.classList.toggle("ow-menu-open");
+                menuToggle.addEventListener("click", () => {
+                  isMenuOpen = !isMenuOpen;
+                  menuToggle.setAttribute("aria-expanded", isMenuOpen);
+                  fullscreenMenu.classList.toggle("opacity-0");
+                  fullscreenMenu.classList.toggle("pointer-events-none");
+                  document.body.classList.toggle("ow-menu-open");
 
-                if (isMenuOpen) {
-                  menuToggle.innerHTML = `
+                  if (isMenuOpen) {
+                    menuToggle.innerHTML = `
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
               </svg>
             `;
-                  menuToggle.classList.add("text-white");
-                } else {
-                  menuToggle.innerHTML = `
+                    menuToggle.classList.add("text-white");
+                  } else {
+                    menuToggle.innerHTML = `
               <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
               </svg>
             `;
-                  menuToggle.classList.remove("text-white");
-                }
-              });
+                    menuToggle.classList.remove("text-white");
+                  }
+                });
 
-              const accordionToggles = document.querySelectorAll(
-                ".ow-accordion-toggle"
-              );
-              accordionToggles.forEach((toggle) => {
-                toggle.addEventListener("click", () => {
-                  const content = toggle.nextElementSibling;
-                  content.classList.toggle("active");
-                  toggle.classList.toggle("active");
+                const accordionToggles = document.querySelectorAll(
+                  ".ow-accordion-toggle"
+                );
+                accordionToggles.forEach((toggle) => {
+                  toggle.addEventListener("click", () => {
+                    const content = toggle.nextElementSibling;
+                    content.classList.toggle("active");
+                    toggle.classList.toggle("active");
 
-                  // Close other open accordions
-                  accordionToggles.forEach((otherToggle) => {
-                    if (otherToggle !== toggle) {
-                      otherToggle.nextElementSibling.classList.remove("active");
-                      otherToggle.classList.remove("active");
-                    }
+                    // Close other open accordions
+                    accordionToggles.forEach((otherToggle) => {
+                      if (otherToggle !== toggle) {
+                        otherToggle.nextElementSibling.classList.remove(
+                          "active"
+                        );
+                        otherToggle.classList.remove("active");
+                      }
+                    });
                   });
                 });
-              });
+              } catch (e) {}
             </script>
           </section>
         </div>
@@ -2265,6 +2270,7 @@
               data-carousel-uid="salon-emmeline"
             >
               <style>
+                @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto+Mono&display=swap");
                 .carousel-container {
                   width: 100%;
                   margin: auto;
@@ -2466,108 +2472,108 @@
               <button class="carousel-control next">&gt;</button>
               <div class="carousel-indicators"></div>
               <script>
-                class Carousel {
-                  constructor(container) {
-                    this.container = container;
-                    this.uid = container.dataset.carouselUid;
-                    this.carousel = container.querySelector(".carousel");
-                    this.items =
-                      this.carousel.querySelectorAll(".carousel-item");
-                    this.prevBtn = container.querySelector(".prev");
-                    this.nextBtn = container.querySelector(".next");
-                    this.indicators = container.querySelector(
-                      ".carousel-indicators"
-                    );
-                    this.currentIndex = 0;
-
-                    this.createIndicators();
-                    this.addEventListeners();
-                  }
-
-                  createIndicators() {
-                    this.items.forEach((_, index) => {
-                      const indicator = document.createElement("div");
-                      indicator.classList.add("indicator");
-                      if (index === 0) indicator.classList.add("active");
-                      indicator.addEventListener("click", () =>
-                        this.goToSlide(index)
+                try {
+                  class Carousel {
+                    constructor(container) {
+                      this.container = container;
+                      this.uid = container.dataset.carouselUid;
+                      this.carousel = container.querySelector(".carousel");
+                      this.items =
+                        this.carousel.querySelectorAll(".carousel-item");
+                      this.prevBtn = container.querySelector(".prev");
+                      this.nextBtn = container.querySelector(".next");
+                      this.indicators = container.querySelector(
+                        ".carousel-indicators"
                       );
-                      this.indicators.appendChild(indicator);
-                    });
-                  }
+                      this.currentIndex = 0;
 
-                  updateCarousel() {
-                    this.carousel.style.transform = `translateX(-${
-                      this.currentIndex * 100
-                    }%)`;
-                    this.updateIndicators();
-                  }
+                      this.createIndicators();
+                      this.addEventListeners();
+                    }
 
-                  updateIndicators() {
-                    this.container
-                      .querySelectorAll(".indicator")
-                      .forEach((indicator, index) => {
-                        indicator.classList.toggle(
-                          "active",
-                          index === this.currentIndex
+                    createIndicators() {
+                      this.items.forEach((_, index) => {
+                        const indicator = document.createElement("div");
+                        indicator.classList.add("indicator");
+                        if (index === 0) indicator.classList.add("active");
+                        indicator.addEventListener("click", () =>
+                          this.goToSlide(index)
                         );
+                        this.indicators.appendChild(indicator);
                       });
+                    }
+
+                    updateCarousel() {
+                      this.carousel.style.transform = `translateX(-${
+                        this.currentIndex * 100
+                      }%)`;
+                      this.updateIndicators();
+                    }
+
+                    updateIndicators() {
+                      this.container
+                        .querySelectorAll(".indicator")
+                        .forEach((indicator, index) => {
+                          indicator.classList.toggle(
+                            "active",
+                            index === this.currentIndex
+                          );
+                        });
+                    }
+
+                    goToSlide(index) {
+                      this.currentIndex = index;
+                      this.updateCarousel();
+                    }
+
+                    nextSlide() {
+                      this.currentIndex =
+                        (this.currentIndex + 1) % this.items.length;
+                      this.updateCarousel();
+                    }
+
+                    prevSlide() {
+                      this.currentIndex =
+                        (this.currentIndex - 1 + this.items.length) %
+                        this.items.length;
+                      this.updateCarousel();
+                    }
+
+                    addEventListeners() {
+                      this.nextBtn.addEventListener("click", () =>
+                        this.nextSlide()
+                      );
+                      this.prevBtn.addEventListener("click", () =>
+                        this.prevSlide()
+                      );
+
+                      let startX, moveX;
+                      this.carousel.addEventListener("touchstart", (e) => {
+                        startX = e.touches[0].pageX;
+                      });
+
+                      this.carousel.addEventListener("touchmove", (e) => {
+                        moveX = e.touches[0].pageX;
+                      });
+
+                      this.carousel.addEventListener("touchend", () => {
+                        if (startX - moveX > 50) {
+                          this.nextSlide();
+                        } else if (moveX - startX > 50) {
+                          this.prevSlide();
+                        }
+                      });
+                    }
                   }
 
-                  goToSlide(index) {
-                    this.currentIndex = index;
-                    this.updateCarousel();
-                  }
-
-                  nextSlide() {
-                    this.currentIndex =
-                      (this.currentIndex + 1) % this.items.length;
-                    this.updateCarousel();
-                  }
-
-                  prevSlide() {
-                    this.currentIndex =
-                      (this.currentIndex - 1 + this.items.length) %
-                      this.items.length;
-                    this.updateCarousel();
-                  }
-
-                  addEventListeners() {
-                    this.nextBtn.addEventListener("click", () =>
-                      this.nextSlide()
-                    );
-                    this.prevBtn.addEventListener("click", () =>
-                      this.prevSlide()
-                    );
-
-                    let startX, moveX;
-                    this.carousel.addEventListener("touchstart", (e) => {
-                      startX = e.touches[0].pageX;
-                    });
-
-                    this.carousel.addEventListener("touchmove", (e) => {
-                      moveX = e.touches[0].pageX;
-                    });
-
-                    this.carousel.addEventListener("touchend", () => {
-                      if (startX - moveX > 50) {
-                        this.nextSlide();
-                      } else if (moveX - startX > 50) {
-                        this.prevSlide();
-                      }
-                    });
-                  }
-                }
-
-                // Auto-initialize all carousels
-                document.addEventListener("DOMContentLoaded", () => {
+                  // Auto-initialize all carousels
                   const carouselContainers = document.querySelectorAll(
                     ".carousel-container"
                   );
                   carouselContainers.forEach(
                     (container) => new Carousel(container)
                   );
-                });
+                } catch (error) {}
               </script>
             </section>
           </div>
