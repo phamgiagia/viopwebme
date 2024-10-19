@@ -1,0 +1,150 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	margin:0;
+}
+[touch-action="none"] {
+	-ms-touch-action:none;
+	touch-action:none;
+}
+[touch-action="auto"] {
+	-ms-touch-action:auto;
+	touch-action:auto;
+}
+[touch-action="pan-x"] {
+	-ms-touch-action:pan-x;
+	touch-action:pan-x;
+}
+[touch-action="pan-y"] {
+	-ms-touch-action:pan-y;
+	touch-action:pan-y;
+}
+[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"] {
+	-ms-touch-action:pan-x pan-y;
+	touch-action:pan-x pan-y;
+}
+.CSSTG-Reorderable-leave ~ .CSSTG-Reorderable-move {
+	transition-delay:.2s;
+}
+#izoxg {
+	position:absolute;
+}
+#im5hx {
+	position:absolute;
+}
+#cdn-lark {
+	display:none;
+}
+#mask0_3834_118377 {
+	mask-type:luminance;
+}
+#iqa38q {
+	--height:170px;
+}
+#i8es3y {
+	--height:112px;
+}
+#ip3f16 {
+	--height:112px;
+}
+#ilvaf9 {
+	--height:208px;
+}
+#ihfstq {
+	--height:227px;
+}
+#if4c1r {
+	--height:170px;
+}
+#ir72ph {
+	--height:0;
+}
+#i8ozck {
+	--height:0;
+}
+#ira6nc {
+	--height:0;
+}
+#ii7lzl {
+	--height:0;
+}
+#ipzj3i {
+	display:none;
+	visibility:hidden;
+}
+#yui3-css-stamp {
+	position:absolute !important;
+	visibility:hidden !important;
+}
+#ir4mji {
+	display:none;
+}
+#i9jend {
+	display:none;
+}
+#i6h5mx {
+	display:none;
+}
+#_pix_id_450f2ab0-dc40-108e-8c6d-769f9b0858eb {
+	display:none;
+}
+#_pix_id_a5938756-f060-cbe6-1d66-e6508e6ebbeb {
+	display:none;
+}
+#_pix_id_714d6040-6939-40c2-9536-cadcf86e31e1 {
+	display:none;
+}
+#_pix_id_7a953892-27c6-3cdb-8e86-56542e8d0abe {
+	display:none;
+}
+#batBeacon641990197023 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#batBeacon467004704315 {
+	width:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+#i11z6m {
+	pointer-events:none;
+	height:0px;
+	width:0px;
+	position:absolute;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	visibility:hidden;
+}
+#ibzxrj {
+	display:none;
+}
+#iqiecl {
+	display:none;
+}
+#ift1lg {
+	display:none;
+}
+#ijmauy {
+	display:none;
+	visibility:hidden;
+}
+#izhsmv {
+	display:none;
+	visibility:hidden;
+}
+#izex0t {
+	display:none;
+	visibility:hidden;
+}
+#iqqq8h {
+	display:none;
+	visibility:hidden;
+}
+#iya9te {
+	display:none;
+}
