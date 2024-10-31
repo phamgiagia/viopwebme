@@ -431,13 +431,9 @@ try {
         // Function to handle style change
         const toggleStyles = (selected) => {
             if (selected === 'annual') {
-                annualOption.classList.add("font-bold", "border-b-2", "border-black", "text-black", "bg-white"); // Selected styles
-                monthlyOption.classList.remove("font-bold", "border-b-2", "border-black", "text-black", "bg-white"); // Remove styles from monthly
-                monthlyOption.classList.add("text-gray-500", "bg-transparent"); // Unselected styles
+
             } else {
-                monthlyOption.classList.add("font-bold", "border-b-2", "border-black", "text-black", "bg-white"); // Selected styles
-                annualOption.classList.remove("font-bold", "border-b-2", "border-black", "text-black", "bg-white"); // Remove styles from annual
-                annualOption.classList.add("text-gray-500", "bg-transparent"); // Unselected styles
+
             }
         };
 

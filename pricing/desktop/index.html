@@ -479,16 +479,58 @@
     <div id="pricing-2022" data-react-root="">
       <section id="pricing-block">
         <div id="i96uen" class="pricing">
-          <div class="hero theme-light-background">
+          <div class="hero theme-light-background mb-2">
             <h1 id="i1v40f" class="heading center"><span data-index="0" id="ie0d7e">Bắt đầu kinh doanh
                 online</span><br /><span data-index="1" id="ic98th">chuyên nghiệp với chỉ đ99k</span></h1>
             <!-- <p>Start with our 14-day free trial, and choose a plan</p> -->
+            <style>
+              .ow-button {
+                padding: 0.5rem 1rem;
+                color: black;
+                background-color: white;
+                border: none;
+                /* border-radius: 0.25rem; */
+                cursor: pointer;
+                transition: background-color 0.3s;
+              }
+            
+              .ow-active-monthly,
+              .ow-active-yearly {
+                border-bottom: 1px solid black;
+                font-weight: bold;
+              }
+            </style>
+            
+            <div class="space-4 mt-4 mb-2">
+              <button id="iud7li" class="ow-button ow-active-yearly" onclick="toggleActive('yearly')">Thanh toán hàng năm</button>
+              <button id="iw3w5z" class="ow-button" onclick="toggleActive('monthly')">Thanh toán hàng tháng</button>
+            </div>
+            
+            <script>
+              function toggleActive(type) {
+                const yearlyButton = document.getElementById('iud7li');
+                const monthlyButton = document.getElementById('iw3w5z');
+            
+                if (type === 'yearly') {
+                  yearlyButton.classList.add('ow-active-yearly');
+                  monthlyButton.classList.remove('ow-active-monthly');
+                } else {
+                  monthlyButton.classList.add('ow-active-monthly');
+                  yearlyButton.classList.remove('ow-active-yearly');
+                }
+              }
+            
+              // Set default to yearly on page load
+              toggleActive('yearly');
+            </script>
+            
+            
           </div>
 
           <div class="price-toggle">
             <div class="price-toggle">
               <div class="price-toggle">
-                <div class="price-toggle__options-mobile">
+                <!-- <div class="price-toggle__options-mobile hidden">
                   <div class="price-toggle__options flex space-x-4">
                     <div id="inw5sj" class="price-toggle__option flex-1">
                       <div id="iud7li" class="cursor-pointer py-2 border-b-2 border-transparent transition">Thanh toán
@@ -500,7 +542,7 @@
                     </div>
                   </div>
                   <div id="i96dzb" class="price-toggle__underline"></div>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="price-toggle__options-desktop">
