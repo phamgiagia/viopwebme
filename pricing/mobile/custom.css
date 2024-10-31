@@ -1,0 +1,39 @@
+.tooltip__bodyx {
+    width: 300px;
+    opacity: 0;
+    /* Start hidden */
+    visibility: hidden;
+    /* Ensures no space is taken up */
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    z-index: 10;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /* Smooth transition */
+  }
+
+  .tooltip__text-boxx {
+    position: relative;
+    z-index: 1000;
+    /* Ensures it appears above most elements */
+  }
+
+  .tooltip_triggerx {
+    padding: 30px !important;
+  }
+
+  .tooltip__bodyx.visible {
+    opacity: 1;
+    /* Fade in */
+    visibility: visible;
+    /* Now occupies space */
+  }
+
+  /* For smooth rotation of the arrow */
+  .rotate-180 {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+  }

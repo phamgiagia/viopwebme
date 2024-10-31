@@ -23,3 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // You can add more JavaScript functionality here
 });
+
