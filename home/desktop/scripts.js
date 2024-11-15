@@ -25,8 +25,7 @@ setNotoFont();
 
 //   
 
-document.addEventListener("DOMContentLoaded", function () {
-    const button = document.getElementById("custom-button");
+const button = document.getElementById("custom-button");
 
     // Apply base styles
     button.style.backgroundColor = "white";
@@ -47,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
         button.style.color = "black";
         button.style.border = "2px solid black"; // Black border after hover
     });
-});
 
 //   
 

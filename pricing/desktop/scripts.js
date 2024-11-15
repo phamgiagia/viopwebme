@@ -43,27 +43,29 @@ addFontFamilyStyle();
 //   
 
 document.addEventListener("DOMContentLoaded", function () {
-    const button = document.getElementById("custom-button");
+   
+});
 
-    // Apply base styles
+const button = document.getElementById("custom-button");
+
+// Apply base styles
+button.style.backgroundColor = "white";
+button.style.color = "black";
+button.style.border = "2px solid black";
+button.style.borderRadius = "0.5rem"; // Maintain rounded corners
+
+// Add hover effect with JavaScript
+button.addEventListener("mouseover", function () {
+    button.style.backgroundColor = "black";
+    button.style.color = "white";
+    button.style.border = "2px solid white"; // White border on hover
+});
+
+button.addEventListener("mouseout", function () {
+    // Revert to the original styles
     button.style.backgroundColor = "white";
     button.style.color = "black";
-    button.style.border = "2px solid black";
-    button.style.borderRadius = "0.5rem"; // Maintain rounded corners
-
-    // Add hover effect with JavaScript
-    button.addEventListener("mouseover", function () {
-        button.style.backgroundColor = "black";
-        button.style.color = "white";
-        button.style.border = "2px solid white"; // White border on hover
-    });
-
-    button.addEventListener("mouseout", function () {
-        // Revert to the original styles
-        button.style.backgroundColor = "white";
-        button.style.color = "black";
-        button.style.border = "2px solid black"; // Black border after hover
-    });
+    button.style.border = "2px solid black"; // Black border after hover
 });
 
 //   
@@ -425,7 +427,9 @@ try {
     // Initial setting of pricing from array A
     setPricing();
     document.addEventListener("DOMContentLoaded", () => {
-        const annualOption = document.getElementById("iud7li");
+        
+    });
+    const annualOption = document.getElementById("iud7li");
         const monthlyOption = document.getElementById("iw3w5z");
 
         // Function to handle style change
@@ -440,7 +444,6 @@ try {
         // Event listeners for click events
         annualOption.addEventListener("click", () => toggleStyles('annual'));
         monthlyOption.addEventListener("click", () => toggleStyles('monthly'));
-    });
 
 
 
