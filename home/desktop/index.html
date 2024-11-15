@@ -1403,49 +1403,48 @@
 
 
 
-    class CarouselDesktop {
-      constructor() {
-        this.currentIndex = 0;
-        this.totalSlides = 3;
-        this.carousel = document.querySelector('[data-ow-carousel]');
-        this.indicators = document.querySelectorAll('[data-ow-indicator]');
 
-        this.init();
-      }
-
-      init() {
-        // Add event listeners
-        document.querySelector('[data-ow-prev]').addEventListener('click', () => this.move(-1));
-        document.querySelector('[data-ow-next]').addEventListener('click', () => this.move(1));
-
-        // Initial update
-        this.updateCarousel();
-      }
-
-      move(direction) {
-        this.currentIndex = (this.currentIndex + direction + this.totalSlides) % this.totalSlides;
-        this.updateCarousel();
-      }
-
-      updateCarousel() {
-        this.carousel.style.transform = `translateX(-${this.currentIndex * 50}%)`;
-
-        this.indicators.forEach((indicator, index) => {
-          indicator.classList.toggle('bg-gray-800', Math.floor(this.currentIndex / 2) === index);
-        });
-      }
-    }
 
     // Initialize carousel when DOM is loaded
     try {
+      class CarouselDesktop {
+        constructor() {
+          this.currentIndex = 0;
+          this.totalSlides = 3;
+          this.carousel = document.querySelector('[data-ow-carousel]');
+          this.indicators = document.querySelectorAll('[data-ow-indicator]');
+
+          this.init();
+        }
+
+        init() {
+          // Add event listeners
+          document.querySelector('[data-ow-prev]').addEventListener('click', () => this.move(-1));
+          document.querySelector('[data-ow-next]').addEventListener('click', () => this.move(1));
+
+          // Initial update
+          this.updateCarousel();
+        }
+
+        move(direction) {
+          this.currentIndex = (this.currentIndex + direction + this.totalSlides) % this.totalSlides;
+          this.updateCarousel();
+        }
+
+        updateCarousel() {
+          this.carousel.style.transform = `translateX(-${this.currentIndex * 50}%)`;
+
+          this.indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('bg-gray-800', Math.floor(this.currentIndex / 2) === index);
+          });
+        }
+      }
       new CarouselDesktop();
     } catch (error) {
       console.error('Carousel initialization failed:', error);
     }
 
     try {
-
-    } catch (error) {
       document
         .querySelectorAll(".accordion-trigger")
         .forEach((trigger) => {
@@ -1465,6 +1464,8 @@
             }
           });
         });
+    } catch (error) {
+
 
     }
 
